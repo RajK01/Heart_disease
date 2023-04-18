@@ -7,7 +7,7 @@ Werkzeug==2.2.3
 numpy>=1.21.6
 scipy>=1.7.3
 scikit-learn>=1.0.2
-matplotlib>=3.7.1
+matplotlib>= 3.5.3
 pandas>= 2.0.0
 pip==23.1
 
