@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="/static/styling.css">
+
+    <!-- features=['cp','thalach','exang','oldpeak','slope','ca','thal'] -->
+
+</head>
+
+<body>
+
+    <div class="header">
+        <p><img src="/static/heart.jpg" alt="" id="heart"></p>
+        <p id="heading">Heart Disease Prediction</p>
+    </div>
+
+    <div class="form">
+        <form action="result" method="post">
+
+            <table class="table">
+                <tr>
+                    <th><label for="CP">CP</Label></th>
+                        <td><input type="text" name="CP" id =""></td>
+                </tr>
+                <tr>
+                    <th><label for="thalach">THALACH</label></th>
+                    <td> <input type="text" name="thalach" id=""></td>
+                </tr>
+                <tr>
+                    <th><label for="exang">EXANG</label></th>
+                    <td> <input type="text" name="exang" id=""></td>
+                </tr>
+                <tr>
+                    <th> <label for="oldpeak">OLDPEAK</label></th>
+                    <td><input type="text" name="oldpeak" id=""></td>
+                </tr>
+
+                <tr>
+                    <th><label for="slope">SLOPE</label></th>
+                    <td><input type="text" name="slope" id=""></td>
+                </tr>
+
+                <tr>
+                    <th><label for="ca">CA</label></th>
+                    <td><input type="text" name="ca" id=""></td>
+                </tr>
+                
+                <tr>
+                    <th><label for="thal">THAL</label></th>
+                    <td> <input type="text" name="thal" id=""></td>
+                </tr>
+
+                <tr><th style="visibility: hidden;"></th>
+                    <td><button type="submit">PREDICT</button></td>
+                </tr>
+                
+            </table>
+
+        </form>
+    </div>
+
+    <P id="result">{{ prediction }}</P>
+
+</body>
+
+</html>
