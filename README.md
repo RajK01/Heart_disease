@@ -1,3 +1,3 @@
 # Heart_disease
 
-https://heartdisease-qsnq.onrender.com
+https://heart-disease-0rgf.onrender.com/result
